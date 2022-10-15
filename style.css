@@ -459,10 +459,10 @@ section {
 .about .content .icons-container {
     margin-top: 1rem;
     display: -ms-grid;
-    display: grid;
+    display: flex;
     -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .about .content .icons-container .icons {
