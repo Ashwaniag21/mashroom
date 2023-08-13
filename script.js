@@ -74,7 +74,7 @@ var swiper = new Swiper(".blogs-slider", {
 });
 
 
-let countDate = new Date('december 30, 2023 00:00:00').getTime();
+let countDate = new Date('December 30, 2023, 00:00:00').getTime();
 
 function countDown() {
 
